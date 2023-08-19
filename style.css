@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.Heading {
+    background-color: rgb(77, 21, 129);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 30px;
+}
+
+.Heading h3 {
+    text-align: center;
+    color: white;
+
+}
+
+.header {
+    background-color: rgb(77, 21, 129);
+}
+
+.btn1 {
+    background-color: rgb(72, 10, 131);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    margin: 0 45%;
+}
+
+.btn2 {
+    background-color: rgb(72, 10, 131);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    margin: 0 45%;
+}
+
+.form-control {
+    margin: 30px auto;
+    width: 30%;
+}
+
+
+.Heading a {
+    margin: 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.newhead {
+    margin: 10px 30px;
+    font: bold;
+}
+
+.todoitem {
+    margin: 10px 10px;
+}
+
+.header-master {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.profile-container {
+    /* padding: 10px;
+    margin: 10px 60px; */
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profileImg {
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(149, 3, 149);
+    border-radius: 40%;
+    margin: 20px auto;
+}
+
+#fullName {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#email,
+#phoneNumber {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+/*/MEDIA SCREEN */
+@media screen and (max-width:600px) {
+    .form-control {
+        width: 50%;
+
+    }
+
+    .Heading {
+        max-width: 100%;
+    }
+
+    .btn1 {
+        padding: 0 10px;
+        margin: 0 90px;
+    }
+
+    .Heading h3 {
+        font-size: larger;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .profileImg {
+        border-radius: 60%;
+
+    }
+
+    .profile-container {
+        /* padding: 30px;
+        margin: 20px 70px; */
+        background-color: #f7f7f7;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .profileImg {
+        width: 180px;
+        height: 180px;
+        border: 1px solid rgb(149, 3, 149);
+        border-radius: 50%;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width:250px) {
+    .profile-container {
+        padding: 30px;
+        margin: 20px 70px;
+        background-color: #f7f7f7;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .profileImg {
+        width: 180px;
+        height: 180px;
+        border: 1px solid rgb(149, 3, 149);
+        border-radius: 30%;
+        margin: 20px auto;
+    }
+}
